@@ -1,9 +1,0 @@
-platform: romm
-source: static
-targets:
-  # RomM plays in the browser alone, through EmulatorJS: every core the platform declares runs on this target, and
-  # naming it filters nothing. A hand-kept list here fell behind the scraped
-  # platform and dropped cores the pack ships.
-  browser:
-    architecture: wasm
-    cores: null

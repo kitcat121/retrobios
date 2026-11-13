@@ -1,9 +1,0 @@
-platform: retrodeck
-source: static
-targets:
-  # RetroDECK runs on x86_64 Linux alone: every core the platform declares runs on this target, and
-  # naming it filters nothing. A hand-kept list here fell behind the scraped
-  # platform and dropped cores the pack ships.
-  x86_64-linux:
-    architecture: x86_64
-    cores: null

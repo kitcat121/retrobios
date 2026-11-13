@@ -1,9 +1,0 @@
-platform: retrobat
-source: static
-targets:
-  # RetroBat runs on Windows alone: every core the platform declares runs on this target, and
-  # naming it filters nothing. A hand-kept list here fell behind the scraped
-  # platform and dropped cores the pack ships.
-  windows:
-    architecture: x86_64
-    cores: null
