@@ -1,3 +1,0 @@
-snes:
-  emulator: libretro
-  core:     pocketsnes
